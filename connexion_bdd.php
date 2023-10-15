@@ -1,6 +1,6 @@
 <?php 
     //Connexion à la base de données
-    $con = mysqli_connect("localhost","root","","chat_youtube");
+    $con = mysqli_connect("localhost","root","","Agent_S");
     //gérer les accents et autres caractères français
     $req= mysqli_query($con , "SET NAMES UTF8");
     if(!$con){
